@@ -1,0 +1,33 @@
+name: taoya CI
+
+on:
+  push:
+    branches:    
+      - master
+
+# 任务
+jobs:
+  build:
+    # 服务器环境
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 拉取
+      - name: Checkout
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 2
+          
+      # 展示文件
+      - name: List output files
+        run: ls
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@3.0.0
+        env:
+          ftp-server: ftp://112.124.30.55
+          ftp-username: ${{ secrets.FTP_USER }}
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
+          local-dir: public/
+          CI: true
