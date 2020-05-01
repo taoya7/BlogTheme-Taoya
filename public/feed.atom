@@ -2,26 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://itaolaity.com/</id>
     <title>Taoya</title>
-    <updated>2020-04-30T14:11:48.842Z</updated>
+    <updated>2020-05-01T18:04:48.372Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://itaolaity.com/"/>
     <link rel="self" href="https://itaolaity.com/feed.atom"/>
     <subtitle>多言数穷，不如守中</subtitle>
-    <entry>
-        <title type="html"><![CDATA[MarkDown]]></title>
-        <id>https://itaolaity.com/article/2020/04/20/markdown/</id>
-        <link href="https://itaolaity.com/article/2020/04/20/markdown/">
-        </link>
-        <updated>2020-04-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[这是一个简单的不能再简单的文字了。]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[直播源抓包]]></title>
-        <id>https://itaolaity.com/article/2020/04/20/%E7%9B%B4%E6%92%AD%E6%BA%90%E6%8A%93%E5%8C%85/</id>
-        <link href="https://itaolaity.com/article/2020/04/20/%E7%9B%B4%E6%92%AD%E6%BA%90%E6%8A%93%E5%8C%85/">
-        </link>
-        <updated>2020-04-20T00:00:00.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[JS短ID生成器]]></title>
         <id>https://itaolaity.com/article/2020/02/21/js%E7%9F%ADid%E7%94%9F%E6%88%90%E5%99%A8/</id>
@@ -30,25 +15,23 @@
         <updated>2020-02-20T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JWT]]></title>
-        <id>https://itaolaity.com/article/2020/04/21/drf-jwt%E5%AE%9E%E7%8E%B0/</id>
-        <link href="https://itaolaity.com/article/2020/04/21/drf-jwt%E5%AE%9E%E7%8E%B0/">
+        <title type="html"><![CDATA[直播源抓包]]></title>
+        <id>https://itaolaity.com/article/2020/04/20/%E7%9B%B4%E6%92%AD%E6%BA%90%E6%8A%93%E5%8C%85/</id>
+        <link href="https://itaolaity.com/article/2020/04/20/%E7%9B%B4%E6%92%AD%E6%BA%90%E6%8A%93%E5%8C%85/">
         </link>
-        <updated>2020-04-21T00:00:00.000Z</updated>
+        <updated>2020-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[目前流行的直播源 .m3u8 .smil  .flv]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[懒加载、渐进图像]]></title>
-        <id>https://itaolaity.com/article/2020/04/21/vue%E6%87%92%E5%8A%A0%E8%BD%BD-%E6%B8%90%E8%BF%9B%E5%BC%8F/</id>
-        <link href="https://itaolaity.com/article/2020/04/21/vue%E6%87%92%E5%8A%A0%E8%BD%BD-%E6%B8%90%E8%BF%9B%E5%BC%8F/">
+        <title type="html"><![CDATA[MarkDown]]></title>
+        <id>https://itaolaity.com/article/2020/04/20/markdown/</id>
+        <link href="https://itaolaity.com/article/2020/04/20/markdown/">
         </link>
-        <updated>2020-04-21T00:00:00.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[算法面试通关40讲Demo]]></title>
-        <id>https://itaolaity.com/article/2020/04/23/%E9%9D%A2%E8%AF%95%E9%80%9A%E8%BF%8740%E8%AE%B2/</id>
-        <link href="https://itaolaity.com/article/2020/04/23/%E9%9D%A2%E8%AF%95%E9%80%9A%E8%BF%8740%E8%AE%B2/">
-        </link>
-        <updated>2020-04-22T16:00:00.000Z</updated>
+        <updated>2020-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[void main(){
+	printf("Hello World");
+}
+`]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[axios、jquery的ajax用法]]></title>
@@ -65,9 +48,9 @@
         <updated>2020-04-22T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[搭建Ease-Mock环境]]></title>
-        <id>https://itaolaity.com/article/2020/04/23/%E6%90%AD%E5%BB%BAease-mock/</id>
-        <link href="https://itaolaity.com/article/2020/04/23/%E6%90%AD%E5%BB%BAease-mock/">
+        <title type="html"><![CDATA[算法面试通关40讲Demo]]></title>
+        <id>https://itaolaity.com/article/2020/04/23/%E9%9D%A2%E8%AF%95%E9%80%9A%E8%BF%8740%E8%AE%B2/</id>
+        <link href="https://itaolaity.com/article/2020/04/23/%E9%9D%A2%E8%AF%95%E9%80%9A%E8%BF%8740%E8%AE%B2/">
         </link>
         <updated>2020-04-22T16:00:00.000Z</updated>
     </entry>
@@ -87,6 +70,28 @@
         <summary type="html"><![CDATA[嗨，接下来演示以下如何Django整合Github登录功能]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[搭建Ease-Mock环境]]></title>
+        <id>https://itaolaity.com/article/2020/04/23/%E6%90%AD%E5%BB%BAease-mock/</id>
+        <link href="https://itaolaity.com/article/2020/04/23/%E6%90%AD%E5%BB%BAease-mock/">
+        </link>
+        <updated>2020-04-22T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DjangoRestFramework]]></title>
+        <id>https://itaolaity.com/article/2020/05/01/djangorest-framework%E7%9A%84%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</id>
+        <link href="https://itaolaity.com/article/2020/05/01/djangorest-framework%E7%9A%84%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/">
+        </link>
+        <updated>2020-04-30T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Django REST framework 框架是一个用于构建Web API 的强大而又灵活的工具。通常简称为DRF框架 或 REST framework。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JWT]]></title>
+        <id>https://itaolaity.com/article/2020/04/21/drf-jwt%E5%AE%9E%E7%8E%B0/</id>
+        <link href="https://itaolaity.com/article/2020/04/21/drf-jwt%E5%AE%9E%E7%8E%B0/">
+        </link>
+        <updated>2020-04-21T00:00:00.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[整合QQ登录、入库]]></title>
         <id>https://itaolaity.com/article/2020/04/28/qq%E7%99%BB%E5%BD%95/</id>
         <link href="https://itaolaity.com/article/2020/04/28/qq%E7%99%BB%E5%BD%95/">
@@ -98,7 +103,7 @@
         <id>https://itaolaity.com/projects/second-demo-project/</id>
         <link href="https://itaolaity.com/projects/second-demo-project/">
         </link>
-        <updated>2020-04-30T14:11:48.815Z</updated>
+        <updated>2020-05-01T18:04:48.364Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic nemo voluptatum.]]></summary>
     </entry>
     <entry>
@@ -106,7 +111,14 @@
         <id>https://itaolaity.com/projects/third-demo-project/</id>
         <link href="https://itaolaity.com/projects/third-demo-project/">
         </link>
-        <updated>2020-04-30T14:11:48.815Z</updated>
+        <updated>2020-05-01T18:04:48.364Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic nemo voluptatum.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[懒加载、渐进图像]]></title>
+        <id>https://itaolaity.com/article/2020/04/21/vue%E6%87%92%E5%8A%A0%E8%BD%BD-%E6%B8%90%E8%BF%9B%E5%BC%8F/</id>
+        <link href="https://itaolaity.com/article/2020/04/21/vue%E6%87%92%E5%8A%A0%E8%BD%BD-%E6%B8%90%E8%BF%9B%E5%BC%8F/">
+        </link>
+        <updated>2020-04-21T00:00:00.000Z</updated>
     </entry>
 </feed>
